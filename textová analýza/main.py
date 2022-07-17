@@ -9,7 +9,11 @@ discord: Vypyx#2641
 import sys
 import TEXTS
 
-registered_users = ["bob", "ann", "mike", "liz"]
+registered_users = {1: {"name": "bob", "pass": "123"}, 
+                    2: "ann" 
+                    3: "mike" 
+                    4: "liz"
+}
 registered_passwords = ["123", "pass123", "password123", "pass123"]
 
 user = input("Please enter your username: ")
